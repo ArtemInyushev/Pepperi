@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content='width=device-width, initial-scale=1' name='viewport'/>
+        <link rel='stylesheet' href='styles.css' />
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <h1>Test</h1>
+        <article>
+            <span></span>Name/Value Pair</span><br>
+            <input type="text" id="input" class="width" placeholder="Name=Value">
+            <br><br>
+            <span>Name/Value Pair List</span><br>
+            <textarea class="width height" id="text">
+
+            </textarea>
+            <textarea class="width height" id="hiddenText" hidden>
+            </textarea>
+        </article>
+        <aside>
+            <br>
+            <input type="button" onclick="addValue()" value="Add"><br><br><br>
+            <input type="button" onclick="sort(0)" value="Sort by Name"><br><br>
+            <input type="button" onclick="sort(1)" value="Sort by Value"><br><br>
+            <input type="button" onclick="makeTextEmpty()" value="Delete"><br><br>
+            <input type="button" onclick="showXML()" value="Show XML"><br><br>
+            <input type="button" onclick="hideXML()" value="Hide XML" id="hiddenBtn" hidden>
+        </aside>
+    </body>
+</html>
